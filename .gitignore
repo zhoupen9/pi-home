@@ -1,0 +1,19 @@
+# Credentials — never commit these
+agent/auth.json
+agent/models.json
+agent/models-store.json
+
+# Machine-specific state
+agent/trust.json
+agent/sessions/
+pi-acp/
+
+# Managed install artifacts (`pi update` owns them, ~300 MB)
+agent/install/
+agent/bin/
+
+# Caches / noise
+*.log
+*.tmp
+.DS_Store
+node_modules/

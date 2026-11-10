@@ -1,0 +1,22 @@
+{
+  "providers": {
+    "nroad": {
+      "baseUrl": "https://napi.nroad.com.cn/v1",
+      "apiKey": "<paste your key here, and keep this file out of git: it is your personal models.json>",
+      "api": "openai-completions",
+      "compat": {
+        "supportsDeveloperRole": false
+      },
+      "models": [
+        {
+          "id": "deepseek-flash",
+          "name": "DeepSeek Flash",
+          "type": "chat",
+          "contextWindow": 524288,
+          "maxTokens": 196608,
+          "reasoning": true
+        }
+      ]
+    }
+  }
+}

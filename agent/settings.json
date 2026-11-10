@@ -1,0 +1,11 @@
+{
+  "lastChangelogVersion": "1.5.1",
+  "theme": "dark",
+  "defaultProvider": "nroad",
+  "defaultModel": "deepseek-flash",
+  "defaultThinkingLevel": "max",
+  "hideThinkingBlock": false,
+  "defaultTools": [
+    "+codemode"
+  ]
+}
